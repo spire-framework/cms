@@ -1,0 +1,60 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "6755160a37c0b95a22ad27a611795bd7",
+    "content-hash": "76a0560fb2cc4834d126cc712d62a3c8",
+    "packages": [
+        {
+            "name": "spire-framework/spire",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spire-framework/spire.git",
+                "reference": "250db202291cf150535312931fb6c93b9e1b6595"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spire-framework/spire/zipball/250db202291cf150535312931fb6c93b9e1b6595",
+                "reference": "250db202291cf150535312931fb6c93b9e1b6595",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Spire\\": "src/Spire/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chris Pynegar",
+                    "email": "chris@chrispynegar.com"
+                }
+            ],
+            "description": "HMVC Framework for PHP7",
+            "keywords": [
+                "framework",
+                "hmvc"
+            ],
+            "time": "2016-06-15 20:24:27"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "spire-framework/spire": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.0"
+    },
+    "platform-dev": []
+}
